@@ -22,4 +22,12 @@ export const products = [{
   name: 'Fridge',
   price: 9999,
   image : "images/fridge.jpeg"
+},{
+  name: 'Power bank',
+  price: 3000,
+  image : "images/powerbank.jpeg"
+},{
+  name: 'router',
+  price: 2345,
+  image: "images/router.jpeg"
 }]
