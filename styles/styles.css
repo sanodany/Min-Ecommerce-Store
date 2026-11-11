@@ -24,7 +24,7 @@ body {
   font-family: 'Bitter', serif;
   font-weight: 500; /* Use 600 if you want it slightly bolder */
   font-size: 34px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 .shop-btn{
   padding: 10px 15px;
@@ -72,4 +72,24 @@ body {
   height: 280px;
   width: 280px;
   object-fit: contain;
+}
+.plus {
+  position: absolute;
+  top: 10px;          /* Distance from the top of the card */
+  right: 10px;        /* Distance from the right of the card */
+  background-color: black;
+  color: white;
+  border-radius: 50%; /* Circle shape */
+  width: 32px;
+  height: 32px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;        /* Ensures it sits above the image */
+}
+.product-div{
+  position: relative;
 }
