@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(163, 209, 210);
+  padding-top: 0;
+}
+.upper-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.store-name{
+  display: inline-block;
+  font-family: 'Bitter', serif;
+  font-weight: 500; /* Use 600 if you want it slightly bolder */
+  font-size: 34px;
+  margin-top: 0px;
+}
+.shop-btn{
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  font-size: 15px;
+}
+.header-btns,
+.menu-btns{
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  font-family: 'Bitter', serif;
+}
+.second-div{
+  display: flex;
+  margin: 10px;
+}
+.side-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.shop-paragraph{
+  font-family: 'Bitter', serif;
+  font-weight: 500; /* Use 600 if you want it slightly bolder */
+  font-size: 54px;
+}
+.menu-btns{
+  margin-bottom: 10px;
+}
