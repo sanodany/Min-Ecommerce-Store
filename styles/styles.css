@@ -14,8 +14,8 @@ body {
   min-height: 100vh;
 }
 .upper-div{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 425px 1fr 425px;
   align-items: center;
   margin: 10px;
 }
@@ -44,7 +44,9 @@ body {
   cursor: pointer;
 }
 .second-div{
-  display: flex;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 200px;
   margin: 10px;
 }
 .side-menu{
@@ -59,4 +61,15 @@ body {
 }
 .menu-btns{
   margin-bottom: 10px;
+}
+.products-div{
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.product-img{
+  height: 280px;
+  width: 280px;
+  object-fit: contain;
 }
