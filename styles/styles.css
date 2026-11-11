@@ -1,6 +1,17 @@
-body{
-  background-color: rgb(163, 209, 210);
-  padding-top: 0;
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at top right,
+      #e9ffff,
+      transparent 45%
+    ),
+    linear-gradient(
+      135deg,
+      #a3d1d2,
+      #d8eeee
+    );
+  min-height: 100vh;
 }
 .upper-div{
   display: flex;
@@ -30,6 +41,7 @@ body{
   background-color: transparent;
   font-size: 15px;
   font-family: 'Bitter', serif;
+  cursor: pointer;
 }
 .second-div{
   display: flex;
