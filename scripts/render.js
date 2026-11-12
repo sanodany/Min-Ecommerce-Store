@@ -42,5 +42,13 @@ export function displayProducts(){
     })
    })
 
+   let cartQuantity = 0;
+   cart.forEach((item)=>{
+     cartQuantity += item.quantity;
+   })
+
+   document.querySelector('.cartNbrDisplay')
+    .innerHTML = `cart ${cartQuantity}`;
+
    
 
