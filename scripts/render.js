@@ -30,9 +30,8 @@ export function displayProducts(){
    })
    document.querySelector('.products-div')
     .innerHTML = productHTML;
-}
 
-  document.querySelectorAll('.addToCart')
+     document.querySelectorAll('.addToCart')
    .forEach((button)=>{
     button.addEventListener('click',()=>{
        const productId = button.dataset.productId;
@@ -40,6 +39,9 @@ export function displayProducts(){
        updateCartQuantity();
     })
    })
+}
+
+ 
 
   
 

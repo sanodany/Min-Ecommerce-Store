@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at top right,
+      #e9ffff,
+      transparent 45%
+    ),
+    linear-gradient(
+      135deg,
+      #a3d1d2,
+      #d8eeee
+    );
+  min-height: 100vh;
+}
+.store-name{
+  display: inline-block;
+  font-family: 'Bitter', serif;
+  font-weight: 500; /* Use 600 if you want it slightly bolder */
+  font-size: 34px;
+  margin-top: 10px;
+}
+.upperdiv{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.left-div{
+  display: flex;
+  gap : 15px;
+  align-items : center;
+  margin-right: 420px;
+}
+.btns{
+   border: none;
+  background-color: transparent;
+  font-size: 15px;
+  font-family: 'Bitter', serif;
+  cursor: pointer;
+}
+.second-div{
+  display: flex;
+  border: solid gray 3px;
+}
+.product-img{
+  height: 280px;
+  width: 280px;
+  object-fit: contain;
+}
+.upper-div{
+  display: flex;
+  flex-direction: row;
+}
